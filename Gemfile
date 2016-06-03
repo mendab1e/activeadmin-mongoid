@@ -7,15 +7,15 @@ gemspec
 
 
 # Test app stuff
-gem 'rails',        '~> 4.0.0'
+gem 'rails',        '~> 4.1'
 
 # Waiting for the release
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'mongoid',     github: 'mongoid/mongoid'
 
-gem 'sass-rails',   '~> 4.0.0'
+gem 'sass-rails',   '>= 4.0.0'
 gem 'uglifier',     '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '>= 4.0.0'
 
 # Bundler hacks
 gem 'railties',     '~> 4.0.0' # forced to overcome coffee-rails
